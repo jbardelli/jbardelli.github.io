@@ -19,7 +19,7 @@ If it could be proved that an Object Detection model is capable of consistently 
 Online research indicated Tensorflow Object Detection API as a good tool because it has proved to be accurate, it has a large user base and there are lots of resources online that can make troubleshooting easier.
 Inital tests with Tensorflow Object Detection API with only 50 images, showed promising reasults with positive detections (understandably inconsistent). Further image training with a final number of around 750 images with varying intensity, position, tube type, etc. made the detection very consistenf and with high confidence.The proof of concept was successful. Illumination of the tubes was made with led strips from the back of a white translucid acrylic. 
 
-![OD tests demo]({{ sitebase.url }}/test_tube_reading_4.gif)
+![OD tests demo]({{ sitebase.url }}/test_tube_reading_4(3).gif)
 
 # GUI Application
 Once the object detection part of the program was finished, I developed a GUI application with OpenCV routines that analyze the bounding box provided by Tensorflow to detect not the meniscus, but the lower edge of it, calculate  the volume with max and min references given by the user, and a cropping function so the OD API receives only the tube image.
