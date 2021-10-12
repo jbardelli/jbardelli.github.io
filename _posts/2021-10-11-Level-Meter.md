@@ -1,7 +1,7 @@
-Level Meter of liquid interfaces in a burette or test tube using tensorflow object detection and OpenCV
+Level Meter of liquid interfaces in a burette or test tube using tensorflow object detection API and OpenCV libraries
 
 # Background
-This project started as a way to automatically measure volumes of oil and water in a test tube or burette used as a two phase separator. When these measurements need to be done at specific intervals during a large period of time, it is desirable to automate the process, since it can allow us to run a test without human intervention or sometimes after-hours. The required sensibility in a 10ml tube was at least 0.01ml which is what a person with experience can usually estimate in a glass burette (1/10th of the smallest division). 
+This project started as a way to automatically measure volumes of oil and water in a test tube or burette used as a two phase separator. When these measurements need to be done at specific intervals during a large period of time, it is desirable to automate the process, since it can allow us to run a test without human intervention or after-hours. The required sensibility in a 10ml tube was at least 0.01ml which is what a person with experience can usually estimate in a glass burette (1/10th of the smallest division). 
 
 There are many methods to measure level in liquids, among those there are ultrasonic, capacitive and optical. 
 
@@ -23,16 +23,16 @@ Inital tests with Tensorflow Object Detection API with only 50 images, showed pr
 # GUI Application
 Once the object detection part of the program was finished, I developed a GUI application with OpenCV routines that analyze the bounding box provided by Tensorflow to detect not the meniscus, but the lower edge of it, calculate  the volume with max and min references given by the user, and a cropping function so the OD API receives only the tube image.
 
-
-
 ![GUI interface demo]({{ sitebase.url }}/images/test_tube_reading_3.gif)
 
-# Usage
-You need first Tkinter, OpenCV and Tensorflow packages installed to be able to run the program.
-first you need to clone the repository and then run "Level_Meter_GUI.py".
-Once the image is cropped so only the white background and the tube are in the frame, click on the image to mark the minimum mark of the tube and then the maximum mark. Then specify the volume that correcsponds to this marks in the Tube Volumes section fields.
+# Camera and Lens
+The main considerations in camera and lens selections should be:
+* Length of the usable scale in the test tube or burette, as this will determine the field of view needed.
+* Focal length and field of view, based on these two parameters, calculate the distance of the camera to the tube.
+* Lens distortion.
 
-# Changing Config File
+# Changing Config File Parameters
+The objective of the configuration file is to allow users to modify certain physical pararmeters both of the measuring device (tube) and the camera.
 If the configuration file does not exist, the app will create one with default parameters. You can edit the "Level_Meter.cfg" file with a text editor and change the default values. See below a reference to the available parameters and the meaning of each one.
 
 * Camera=0                (USB Camera number that openCV uses to open the stream)
