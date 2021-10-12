@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Engineer in Electronics, and post graduate in Petroleum Production.
+Working in automation of Laboratory processes and measurements for the Oil & Gas industry.
+Working at Inlab S.A. (Argentina)
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+https://github.com/jbardelli
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jbardelli@inlab.com.ar](mailto:jbardelli@inlab.com.ar)
+[jbardelli@gmail.com](mailto:jbardelli@gmail.com)
