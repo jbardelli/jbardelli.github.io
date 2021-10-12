@@ -12,6 +12,8 @@ Working at Inlab S.A. (Argentina)
 
 https://github.com/jbardelli
 
+https://www.linkedin.com/in/julian-bardelli-26626416/
+
 ### Contact me
 
 [jbardelli@inlab.com.ar](mailto:jbardelli@inlab.com.ar)
