@@ -6,6 +6,6 @@ Computing the pore size distribution and pore atributes from a thin section imag
 
 
 
-![IMG1]({{ sitebase.url }}/images/prediction.tiff) 
+![IMG1]({{ sitebase.url }}/images/prediction.jpg) 
 
 ![IMG2]({{ sitebase.url }}/images/pores_img.jpg) 
