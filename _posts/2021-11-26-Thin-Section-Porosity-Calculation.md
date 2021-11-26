@@ -3,6 +3,7 @@ This project application calculates the total porosity of a thin section and a h
 Thin Sections are 30 micron slices of rock used in Geology to describe the minerals present in the rock sample. In petroleum geology, calculating the porosity of a rock sample is important and is part of the routine geological analysis. During the preparation of the Thin Section, pores are filled with a blue resin that when photographed in a microscope, allows you to differentiate the pores from the rest of the minerals.
 
 <img src="images/comp4.jpg" width="450" height="300">
+![OD tests demo]({{ sitebase.url }}/images/test_tube_reading_5.gif)
 
 Usually four microscopic photographs are taken to have a more representative samplig of the thin section.
 The work of calculating porosity can be done using free available software like JMicroVision, but many of the tasks involved make the whole process really slow (usually more that 10 minutes per sample).
