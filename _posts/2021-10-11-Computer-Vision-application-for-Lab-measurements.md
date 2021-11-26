@@ -1,5 +1,7 @@
 The objective of this article is to show an application of Computer Vision techniques to laboratory measurements, in this case a Level Meter of liquid interfaces in a burette or test tube using tensorflow object detection API and OpenCV libraries
 
+![demo]({{ sitebase.url }}/images/test_tube_reading_1.jpg)
+
 # Background
 This project started as a way to automatically measure volumes of oil and water in a test tube or burette used as a two phase separator. When these measurements need to be done at specific intervals during a large period of time, it is desirable to automate the process, since it can allow us to run a test without human intervention or after-hours. The required sensibility in a 10ml tube was at least 0.01ml which is what a person with experience can usually estimate in a glass burette (1/10th of the smallest division). 
 
