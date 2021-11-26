@@ -47,7 +47,7 @@ Once the blue zones of the porosity are detected, press Calculate to get a repor
 Pore Size Diameter is calculated as the diameter of a circle that has the same area as the total area of the pore.
 
 # Example video
-<img src="images/TSP2.gif" width="450" height="300">
+![demo]({{ sitebase.url }}/images/TSP2.gif)
 
 # Example results file
 ![demo]({{ sitebase.url }}/images/comp1_result.jpg)
